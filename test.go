@@ -13,6 +13,7 @@ am|AM|pm|PM)?)|((早|晚)?(\d+[:：]\d+([:：]\d+)*)\s*(am|AM|pm|PM)?)|((早|晚
 )
 
 func main() {
+	//添加注释
 	tn := datetime.NewTimeNormalizer()
 	rb, err := tn.Parse("播放等1分钟")
 	if err != nil {
